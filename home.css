@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+    color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    background-image: url(https://4kwallpapers.com/images/wallpapers/the-last-of-us-part-ii-ellie-playstation-4-2020-games-1920x1200-1877.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.formulario {
+    text-align: center;
+    padding: 1.35rem;
+    margin: 1.5rem;
+}
+
+input {
+ border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}

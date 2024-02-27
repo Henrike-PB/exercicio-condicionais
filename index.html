@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="html1.css">
+    <!-- fontes -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Estruturas Condicionais</title>
+</head>
+<body>
+    
+    <div class="formulario">
+        <h1>Verificação de Idade</h1>
+        <p>Por Favor, insira sua idade:</p>
+        <input type="number" name="" id="idadeInput">
+        <button onclick="verificarIdade()">Verificar</button>
+    </div>
+
+    <script>
+        function verificarIdade(){
+            // parseInt enxerga/interpreta o valor como um numero inteiro
+            var idade = parseInt(document.getElementById ("idadeInput").value);
+
+            if (idade>=18) {
+                window.location.href = 'maior.html';
+            } else {
+                window.location.href = 'menor.html';
+            }
+        }
+    </script>
+
+</body>
+</html>
